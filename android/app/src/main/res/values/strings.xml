@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">חמ\"ל אביעד</string>
+    <string name="title_activity_main">חמ\"ל אביעד</string>
+    <string name="package_name">il.aviad.hamal</string>
+    <string name="custom_url_scheme">il.aviad.hamal</string>
+</resources>

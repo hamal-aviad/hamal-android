@@ -1,0 +1,20 @@
+{
+	"appId": "il.aviad.hamal",
+	"appName": "חמ\"ל אביעד",
+	"webDir": "www",
+	"server": {
+		"url": "https://SITE_URL_HERE",
+		"errorPath": "index.html",
+		"allowNavigation": [
+			"*.netlify.app",
+			"*.firebaseapp.com",
+			"*.googleapis.com",
+			"ntfy.sh"
+		]
+	},
+	"android": {
+		"backgroundColor": "#1B2512",
+		"allowMixedContent": false,
+		"appendUserAgent": "HamalAviadApp/1"
+	}
+}

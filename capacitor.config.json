@@ -1,0 +1,21 @@
+{
+  "appId": "il.aviad.hamal",
+  "appName": "חמ\"ל אביעד",
+  "webDir": "www",
+  "server": {
+    "url": "https://konenut-aviad.netlify.app",
+    "errorPath": "index.html",
+    "allowNavigation": [
+      "*.netlify.app",
+      "*.firebaseapp.com",
+      "*.googleapis.com",
+      "ntfy.sh"
+    ]
+  },
+  "android": {
+    "backgroundColor": "#1B2512",
+    "allowMixedContent": false,
+    "appendUserAgent": "HamalAviadApp/1",
+    "adjustMarginsForEdgeToEdge": "auto"
+  }
+}
