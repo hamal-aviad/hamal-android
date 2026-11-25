@@ -3,9 +3,10 @@
   "appName": "חמ\"ל אביעד",
   "webDir": "www",
   "server": {
-    "url": "https://konenut-aviad.netlify.app",
+    "url": "https://hamal-aviad.pages.dev",
     "errorPath": "index.html",
     "allowNavigation": [
+      "*.pages.dev",
       "*.netlify.app",
       "*.firebaseapp.com",
       "*.googleapis.com",
