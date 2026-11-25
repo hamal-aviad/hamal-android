@@ -14,6 +14,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # עדכונים: מעלים לריפו את קובץ ה-ZIP כמו שהוא (בלי לחלץ), והבנייה מחלצת אותו כאן לבד
+      - name: Apply update ZIPs
+        run: |
+          ls -1 *.zip 2>/dev/null | sort -V | while IFS= read -r z; do
+            echo "מחלץ $z"
+            unzip -o -q "$z" -d .
+          done
+          rm -f "capacitor.config (1).json" MainActivity.java
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
